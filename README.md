@@ -1,2 +1,5 @@
 # GS-Front-
-Gilson Dias Ramos Junior – RM552345 Joseh Gabriel Trimboli Agra - RM553094
+
+# Integrantes 
+    Gilson Dias Ramos Junior – RM552345 
+    Joseh Gabriel Trimboli Agra - RM553094
