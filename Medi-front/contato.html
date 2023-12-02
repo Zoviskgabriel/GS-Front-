@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medi+ / CONTATO</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- cabecalho -->
+      <div class="cabecalho">
+        <a href="index.html"><img src="./img/logo.png" class="logo img-fluid" alt="Imagem responsiva"></a>
+        <a href="https://www.hapvida.com.br/site/"><img src="./img/parceiro.png" class="parceiro img-fluid right" alt="Imagem responsiva"></a>
+      </div>
+      <!-- Barra de Navegação -->
+      <nav class="nav nav-pills nav-fill">
+        <a href="index.html"                    class="nav-item nav-link">HOME</a>
+        <a href="problema-solucao.html"         class="nav-item nav-link">PROBLEMA & SOLUÇÃO</a>
+        <a href="demonstracao-da-solucao.html"  class="nav-item nav-link">DEMOSTRAÇÃO DA SOLUÇÃO</a>
+        <a href="contato.html"                  class="nav-item nav-link">CONTATO</a>
+      </nav>
+    </header> 
+
+    <!-- Imagem de conteudo da Página -->
+    <div class="banner">
+      <img src="img/contato.jpg" class="img-fluid" alt="Imagem responsiva">
+    </div>
+
+    <!-- Conteúdo da Página -->
+    <div class="content">
+      <h1 class="titulo">INFORMAÇÕES DE CONTATO</h1>
+      <br>
+      <section id="problema-solucao">
+        <!-- Formulário de contato -->
+        <div class="form-container">
+          <form class="contact-form">
+            <input type="text" id="name" placeholder="Nome:"><br><br>
+            <input type="email" id="email" placeholder="Email:"><br><br>
+            <button type="button" onclick="validarForm()">Enviar</button>
+          </form>
+          <p id="mensagem"></p>
+        </div>
+        <br>
+      </section>
+
+      <section class="equipe">
+        <h1 class="titulo">EQUIPE</h1>
+        <br>
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">NOME</th>
+              <th scope="col">RM</th>
+              <th scope="col">GITHUB</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td>Gilson Dias</td>
+              <td>552345</td>
+              <td>https://github.com/G1lsJn</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Joseh Gabriel</td>
+              <td>553094</td>
+              <td>https://github.com/Zoviskgabriel</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <section class="banner2">
+      <img src="img/equipe.jpg" class="img-fluid" alt="Imagem responsiva">
+    </section>
+
+    <!-- Rodapé -->    
+    <footer>
+      <p>® TODOS OS DIREITOS RESERVADOS. MEDI+ DIA A DIA, CUIDANDO DE VOCÊ</p>
+    </footer>
+
+    <!-- Link do arquivo Js  -->
+    <script src="./script/script.js"></script>
+
+  </body>
+</html>
